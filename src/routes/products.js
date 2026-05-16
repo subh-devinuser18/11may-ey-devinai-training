@@ -19,7 +19,7 @@ router.get("/", (req, res) => {
     return res.json(filtered);
   }
 
-  res.json(products);
+  //res.json(products);
 });
 
 module.exports = router;
